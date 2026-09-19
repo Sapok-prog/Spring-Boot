@@ -10,6 +10,4 @@ public class helloWorld {
     public String getHelloWorld(@RequestBody String name){
         return "Hello world! " + name;
     }
-
-
 }
